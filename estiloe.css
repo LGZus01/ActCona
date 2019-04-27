@@ -1,0 +1,41 @@
+html{
+	background-color: #282333;
+}
+#cabeza{
+	background-color: #282333;
+	text-align: center;
+	border-top-width: 5px;
+	border-right-width : 5px;
+	border-bottom-width : 5px;
+	border-left-width : 5px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#logotipo{
+	float: left;
+  	width:200px;
+  	height:140px;
+}
+header nav{
+	background-color: #448c07;
+	margin-bottom: 5px;
+}
+header nav ul{
+	list-style: none;
+	overflow: hidden;
+}
+
+header nav ul li{
+	float: left;
+}
+header nav ul li a{
+	display: block;
+	padding: 20px;
+	color: #010101;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+	background: #448c07;
+}
